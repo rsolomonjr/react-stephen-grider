@@ -3,8 +3,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1{
+.headerTitle{
   text-align: center;
+  text-transform: uppercase;
 }
 
 .search-bar{
@@ -21,7 +22,7 @@ h1{
 }
 
 label{
-  font-size: 100% !important; 
+  font-size: 100% !important;
 }
 
 input{

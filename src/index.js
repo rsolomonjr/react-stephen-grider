@@ -17,8 +17,7 @@ class App extends Component {
       videos: [],
       selectedVideo: null
     };
-
-    this.videoSearch('reactjs context api');
+    this.videoSearch("reactjs context api");
   }
 
   videoSearch(term){
@@ -35,7 +34,6 @@ class App extends Component {
 
       return (
         <div>
-          <h1></h1>
           <SearchBar onSearchTermChange={term => this.videoSearch(term)}/>
           <div className="module">
             <VideoDetail video={this.state.selectedVideo}/>
